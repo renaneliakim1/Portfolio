@@ -53,7 +53,7 @@ body{
     height: 128px;
     flex-shrink: 0;
     border-radius: 50%;
-    border-color: chartreuse;
+    border: 5px;
   }
 
   #links{
@@ -76,6 +76,10 @@ body{
     color: white;
     text-decoration: none;
   } 
+
+
+
+
 
   #tecnologias{
     display: flex;
@@ -111,7 +115,6 @@ body{
     flex-direction: column;
     align-items: left;
     justify-content: space-around;
-    margin: 40px;
     margin: 30px 40px 10px 40px;
     border-radius: 20px;
     width: 348px;
@@ -123,6 +126,35 @@ body{
 
 #experiencias li{
      margin-bottom: 130px;
+     margin-left: 30px;
+}
+
+#educacao{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    margin: 30px 40px 10px 40px;
+    border-radius: 20px;
+    width: 348px;
+    height: 292px;
+    background: #302F3D;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);   
+}
+
+#educacao p{
+    margin: 30px 40px 10px 30px;
+}
+
+#meuprojetos{
+display: flex;
+justify-content: baseline;
+width: 952px;
+height: 86px;
+flex-shrink: 0;
+box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);   
+border-radius: 20px;
 }
 
 
