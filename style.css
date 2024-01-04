@@ -166,6 +166,7 @@ body {
 #meusprojetos {
   display: flex;
   width: 100%;
+  align-items: left;
   height: 86px;
   flex-shrink: 0;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
