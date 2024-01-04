@@ -10,11 +10,8 @@ body {
   display: flex;
   background: #22212C;
   color: #837E9F;
-  margin: 10%;
-
-
-
-
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 :root {
@@ -41,7 +38,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin: 40px 40px 10px 40px;
+  margin: 20px 40px 10px 40px;
   border: 4px;
   border-radius: 20px;
   width: 348px;
@@ -102,6 +99,7 @@ body {
 #tecnologias ul li {
   list-style-type: none;
   margin: 12px;
+  
 
 }
 
@@ -111,13 +109,18 @@ body {
   background: rgb(188, 163, 163);
   width: 100px;
   text-align: center;
+
 }
+
+#tecnologias p{
+  margin: 10px 40px 10px 20px;
+
+} 
 
 #experiencias {
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: space-around;
   margin: 30px 40px 10px 40px;
   border-radius: 20px;
   width: 348px;
@@ -127,9 +130,8 @@ body {
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
 }
 
-#experiencias li {
-  margin-bottom: 130px;
-  margin-left: 30px;
+#experiencias p{
+  margin: 20px 40px 10px 20px;
 }
 
 #educacao {
@@ -147,7 +149,18 @@ body {
 }
 
 #educacao p {
-  margin: 30px 40px 10px 30px;
+  margin: 10px 40px 10px 20px;
+  
+}
+
+#programacao{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+
+
+
+
 }
 
 #meusprojetos {
@@ -158,7 +171,7 @@ body {
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
   border-radius: 20px;
   border: 10px;
-  margin: 40px 40px 10px 40px;
+  margin: 20px 40px 10px 20px;
   background: #302F3D;
   justify-content: space-between;
   padding: 20px;
@@ -170,3 +183,23 @@ color: #837E9F;
 text-decoration: none;
 
 }
+
+#adot.me{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  flex-shrink: 0;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
+  border-radius: 20px;
+  border: 10px;
+  margin: 20px 40px 10px 20px;
+  background: #302F3D;
+  justify-content: space-between;
+  padding: 20px
+}
+
+#adot.me a{
+  color: #837E9F;
+  text-decoration: none;
+  
+  }
