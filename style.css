@@ -10,8 +10,8 @@ body {
   display: flex;
   background: #22212C;
   color: #837E9F;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 :root {
@@ -23,7 +23,7 @@ body {
 
 #portfolio {
   display: flex;
-  justify-content: left;
+  width: 100%;
 }
 
 #apresentacao {
@@ -41,8 +41,6 @@ body {
   margin: 20px 40px 10px 40px;
   border: 4px;
   border-radius: 20px;
-  width: 348px;
-  height: 292px;
   background: #302F3D;
   padding: 20px;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
@@ -50,10 +48,10 @@ body {
 
 #profile img {
   width: 128px;
-  height: 128px;
+  height: 127px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: 5px;
+  border: 2px solid #1cf608;
 }
 
 #links {
@@ -154,19 +152,24 @@ body {
 }
 
 
+#portfolio2{
+  width: 100%;
+
+}
+
 #meusprojetos {
   display: flex;
   width: 100%;
-  align-items: left;
-  height: 86px;
+  height: 50x;
   flex-shrink: 0;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
   border-radius: 20px;
   border: 10px;
-  margin: 20px 40px 10px 20px;
+  margin: 20px 40px 0px 10px;
   background: #302F3D;
   justify-content: space-between;
   padding: 20px;
+  
 
 }
 
@@ -177,44 +180,16 @@ text-decoration: none;
 }
 
 
-#programacao{
+.programacao{
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr 1fr;
-  justify-items: stretch
-
-
-
-
+  gap:40px
 
 }
 
-#adot.me{
+#projeto{
   display: flex;
-  width: 100%;
-  align-items: right;
-  height: 86px;
-  flex-shrink: 0;
-  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
-  border-radius: 20px;
-  border: 10px;
-  margin: 20px 40px 10px 20px;
-  background: #302F3D;
-  justify-content: space-between;
-  padding: 20px;
-  position: right;
-}
-
-#adot.me a{
-  color: #837E9F;
-  text-decoration: none;
-  
-  }
-
-
-#vision{
-  display: flex;
-  width: 100%;
+  width: 98%;
   align-items: left;
   height: 86px;
   flex-shrink: 0;
@@ -225,10 +200,60 @@ text-decoration: none;
   background: #302F3D;
   justify-content: space-between;
   padding: 20px;
-  position: left;
+  flex-direction: column;
+  gap: 20px;
 }
 
-#vision a {
+#projeto a {
   color: #837E9F;
   text-decoration: none;
+}
+
+#projetositens a{
+  display: flex;  
+  margin-right: 10px;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#profile:hover{
+  background: rgb(88, 87, 87);
+  color: white;
+}
+#links:hover{
+  background: rgb(88, 87, 87);
+  color: white;
+
+}
+
+#tecnologias:hover{
+  background: rgb(88, 87, 87);
+  color: white;
+
+}
+#experiencias:hover{
+  background: rgb(88, 87, 87);
+  color: white;
+
+}
+#educacao:hover{
+  background: rgb(88, 87, 87);
+  color: white;
+
+}
+#meusprojetos:hover{
+  background: rgb(88, 87, 87);
+  color: white;
+
+}
+#projeto:hover{
+  background: rgb(88, 87, 87);
+  color: white;
+
+}
+
+#projetositens a:hover{
+  color: white;
+
 }
