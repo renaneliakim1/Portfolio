@@ -191,7 +191,7 @@ text-decoration: none;
   display: flex;
   width: 98%;
   align-items: left;
-  height: 86px;
+  height: 120px;
   flex-shrink: 0;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
   border-radius: 20px;
@@ -255,5 +255,16 @@ text-decoration: none;
 
 #projetositens a:hover{
   color: white;
+
+}
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center; 
+}
+
+footer p{
+  text-align: center;
 
 }
