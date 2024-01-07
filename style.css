@@ -7,19 +7,14 @@
 body {
   font-size: 18px;
   font-family: Merriweather Sans;
-  display: flex;
-  background: #22212C;
+/*   display: flex;
+ */  background: #22212C;
   color: #837E9F;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-:root {
-  --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
-  --bg-techs: #CB92B1;
-}
+/*  */
 
 #portfolio {
   display: flex;
@@ -44,6 +39,7 @@ body {
   background: #302F3D;
   padding: 20px;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
+  height: 225px;
 }
 
 #profile img {
@@ -183,7 +179,8 @@ text-decoration: none;
 .programacao{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap:40px
+  gap:40px;
+  row-gap: 17px
 
 }
 
@@ -198,7 +195,6 @@ text-decoration: none;
   border: 10px;
   margin: 20px 40px 10px 20px;
   background: #302F3D;
-  justify-content: space-between;
   padding: 20px;
   flex-direction: column;
   gap: 20px;
@@ -216,6 +212,10 @@ text-decoration: none;
   flex-direction: row;
   gap: 20px;
 }
+
+
+#projeto p{
+position: top;}
 
 #profile:hover{
   background: rgb(88, 87, 87);
@@ -262,9 +262,60 @@ footer{
   display: flex;
   text-align: center;
   justify-content: center; 
+  bottom: 0;
 }
 
 footer p{
   text-align: center;
 
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px; 
+    justify-content: center;
+  }
+
+  #portfolio {
+    flex-direction: column;
+   
+  }
+
+  #apresentacao,
+  #portfolio2 {
+    width: 95%;
+  }
+
+  #profile {
+    width: 94%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #links,
+  #tecnologias,
+  #experiencias,
+  #educacao,
+  #meusprojetos,
+  #projeto {
+    width: 95%;
+    margin: 5px;
+  }
+
+  
+  .programacao {
+    grid-template-columns: 1fr;
+  }
+
+  #meusprojetos {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #projeto {
+    height: auto;
+  }
 }
