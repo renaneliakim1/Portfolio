@@ -220,43 +220,58 @@ position: top;}
 #profile:hover{
   background: rgb(88, 87, 87);
   color: white;
+  transition: color 0.3s ease;
 }
 #links:hover{
   background: rgb(88, 87, 87);
   color: white;
+  transition: color 0.3s ease;
+
 
 }
 
 #tecnologias:hover{
   background: rgb(88, 87, 87);
   color: white;
+  transition: color 0.3s ease;
+
 
 }
 #experiencias:hover{
   background: rgb(88, 87, 87);
   color: white;
+  transition: color 0.3s ease;
+
 
 }
 #educacao:hover{
   background: rgb(88, 87, 87);
   color: white;
+  transition: color 0.3s ease;
+
 
 }
 #meusprojetos:hover{
   background: rgb(88, 87, 87);
   color: white;
+  transition: color 0.3s ease;
+
 
 }
 #projeto:hover{
   background: rgb(88, 87, 87);
   color: white;
+  transition: color 0.3s ease;
+
 
 }
 
 #projetositens a:hover{
   color: white;
-
+  transition: color 0.3s ease;
 }
+
+
 
 footer{
   display: flex;
