@@ -9,15 +9,12 @@
 
 body {
   font-size: 0.88rem;
-  font-family: Merriweather Sans;
-/*   display: flex; */ 
+  font-family: "Merriweather", "sans-serif";
  background: #000000;
   color: #efeef3;
   margin-left: 10%;
   margin-right: 10%;
 }
-
-/*  */
 
 #portfolio {
   display: flex;
@@ -31,6 +28,12 @@ body {
 
 }
 
+
+.profile_subtitulo{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 #profile {
   display: flex;
   flex-direction: column;
@@ -38,7 +41,7 @@ body {
   justify-content: space-around;
   margin: 20px 40px 10px 40px;
   border: 4px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid #22d4fd;
   padding: 20px;
   /*   box-shadow: 4px 4px 4px 2px rgba(126, 124, 124, 0.2); */  
@@ -61,10 +64,9 @@ body {
   justify-content: space-around;
   margin: 30px 40px 10px 40px;
   border: 4px;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 348px;
   height: 292px;
-  border-radius: 20px;
   border: 2px solid #22d4fd;
   padding: 20px;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
@@ -93,10 +95,9 @@ body {
   justify-content: space-around;
   margin: 30px 40px 10px 40px;
   border: 4px;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 348px;
   height: 292px;
-  border-radius: 20px;
   border: 2px solid #22d4fd; 
   padding: 20px;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
@@ -135,10 +136,9 @@ body {
   flex-direction: column;
   align-items: left;
   margin: 30px 40px 10px 40px;
-  border-radius: 20px;
   width: 348px;
   height: 292px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid #22d4fd;
   padding: 20px;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
@@ -160,10 +160,9 @@ body {
   align-items: left;
   justify-content: space-around;
   margin: 30px 40px 10px 40px;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 348px;
   height: 292px;
-  border-radius: 20px;
   border: 2px solid #22d4fd;
   padding: 20px;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
@@ -199,10 +198,9 @@ body {
   height: 50x;
   flex-shrink: 0;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
-  border-radius: 20px;
   border: 10px;
   margin: 20px 40px 0px 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid #22d4fd;
   justify-content: space-between;
   padding: 20px;
@@ -234,10 +232,9 @@ font-weight: 700;
   height: 195px;
   flex-shrink: 0;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
-  border-radius: 20px;
   border: 10px;
   margin: 20px 20px 10px 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid #22d4fd;
   padding: 20px;
   flex-direction: column;
@@ -342,22 +339,35 @@ footer p{
 
 }
 
-@media only screen and (max-width: 480px) {
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+  
   body {
- /*    margin-left: 5%;
-    margin-right: 5%;   faz ficar lados desiguais*/
+  
     font-size: 1rem; 
     justify-content: center;
   }
 
   #portfolio {
     flex-direction: column;
+    width: 88%;
+    align-items: center;
+    justify-content: center;
    
   }
 
-  #apresentacao,
   #portfolio2 {
-    width: 95%;
+    display: flex;
+    width: 88%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
   }
 
   #profile {
@@ -380,14 +390,32 @@ footer p{
   
   .programacao {
     grid-template-columns: 1fr;
-  }
-
-  #meusprojetos {
-    flex-direction: row;
+    width: 95%;
     align-items: center;
+    justify-content: center;
   }
 
-  #projeto {
+   #meusprojetos {
+    display: flex;
+    width: 290px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 18%;
+  }
+ 
+  #programacao {
     height: auto;
+ 
+    
+
+  }
+
+
+  footer p{
+    text-align: center;
+    margin-top: 10%;
+   
+  
   }
 }
