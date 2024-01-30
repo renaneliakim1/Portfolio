@@ -194,7 +194,7 @@ body {
 
 #meusprojetos {
   display: flex;
-  width: 100%;
+  width: 96%;
   height: 50x;
   flex-shrink: 0;
   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.20);
@@ -221,13 +221,14 @@ font-weight: 700;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap:40px;
-  row-gap: 17px
+  row-gap: 17px;
+
 
 }
 
 #projeto{
   display: flex;
-  width: 98%;
+  width: 91%;
   align-items: left;
   height: 195px;
   flex-shrink: 0;
@@ -240,6 +241,8 @@ font-weight: 700;
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
+  margin: 20px;
+
 
 }
 
@@ -340,6 +343,65 @@ footer p{
 }
 
 
+@media only screen and (max-width: 1366px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #portfolio {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #portfolio2 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #profile {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #links,
+  #tecnologias,
+  #experiencias,
+  #educacao,
+  #meusprojetos,
+  #projeto {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .programacao {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  #meusprojetos {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #projeto {
+    width: 90%;
+    margin: 20px 2% 10px 2%;
+  }
+
+  footer p {
+    margin-top: 5%;
+  }
+}
 
 
 
@@ -381,7 +443,6 @@ footer p{
   #tecnologias,
   #experiencias,
   #educacao,
-  #meusprojetos,
   #projeto {
     width: 95%;
     margin: 5px;
@@ -397,12 +458,10 @@ footer p{
 
    #meusprojetos {
     display: flex;
-    width: 290px;
+    width: 88%;
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    margin-left: 18%;
-  }
  
   #programacao {
     height: auto;
